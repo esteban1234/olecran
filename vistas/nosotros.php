@@ -68,20 +68,23 @@
       <div class="container" style="margin-top: 5%; margin-bottom: 5%;">
         <div class="row">
           <div class="col-md-4">
-            <img src="../img/mision.jpg"
-            class="img-responsive img-rounded">
+            <div class="iconos">
+              <i class="fa fa-line-chart fa-5x" aria-hidden="true"></i>
+            </div>
             <h2 class="text-center text-muted">MISION</h2>
             <p class="text-center">Contribuir al desarrollo de nuestro negocio en beneficio de nuestros clientes, adaptándonos a las innovaciones en el mercado, enfocados en las necesidades del cliente para que aumenten la demanda de nuestra organización.</p>
           </div>
           <div class="col-md-4">
-            <img src="../img/vision.jpg"
-            class="img-responsive img-rounded">
+            <div class="iconos">
+              <i class="fa fa-eye fa-5x" aria-hidden="true"></i>
+            </div>
             <h2 class="text-center text-muted">VISION</h2>
             <p class="text-center">Ser la empresa consultor más importante y éticamente confiable para nuestros clientes, basados en el profesionalismo, calidad y servicio.</p>
           </div>
           <div class="col-md-4">
-            <img src="../img/politica.png"
-            class="img-responsive img-rounded">
+            <div class="iconos">
+              <i class="fa fa-check fa-5x" aria-hidden="true"></i>
+            </div>
             <h2 class="text-center text-muted">POLITICA DE CALIDAD</h2>
             <p class="text-center">Para OLECRAM nuestra política de calidad es ofrecer los mejores servicios de consultoría a través de la capacitación y actualización constante de nuestro personal, equipos y tecnologías con esto asegurando la alta calidad de nuestros servicios para la satisfacción de nuestros clientes.</p>
           </div>
