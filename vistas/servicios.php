@@ -75,7 +75,7 @@
 	    </div>
 
 	    <div class="contacto">
-	    	<a href="contacto.php"><p>AGENDA UNA CITA</p></a>
+	    	<a href="contacto.php"><p>Contáctanos e inicia el cambio hoy mismo</p></a>
 	    </div>
 	    <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
 <?php include 'pie.php' ?>

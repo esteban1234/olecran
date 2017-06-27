@@ -9,7 +9,7 @@
 body{
      /*height: 550px;*/
     /*height: auto;*/
-    background: url('../img/body3.jpg') no-repeat;
+    background: url('../img/corporate-1.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ border: 0px solid #000000;
 }
 .banner{
     height: 500px;
-    background: url('../img/banner.jpg') no-repeat;
+    background: url('../img/banner2.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ border: 0px solid #000000;
    height: 500px;
    overflow: hidden;
    width: 100%;
-   background-color: rgba(0,0,0, .6);
+   background-color: rgba(0,0,0, .3);
 }
 .text-banner{
   /*border: 2px red solid;*/
