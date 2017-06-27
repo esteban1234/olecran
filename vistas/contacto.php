@@ -127,11 +127,13 @@
 	    <div class="mapa">
 	    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.1087032867467!2d-100.36804728075263!3d25.700824690662696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662966e9e0525c3%3A0xb5bf064757593be!2sAv+Paseo+de+los+Leones+1684%2C+Leones%2C+64610+Monterrey%2C+N.L.!5e0!3m2!1ses-419!2smx!4v1498516711236" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	    </div>
+
+	    <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
+<?php include 'pie.php' ?>
 	</div>    
 
 
-<span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
-<?php include 'pie.php' ?>
+
 <script src="../js/jquery.js"></script>
 <script src="../js/sendCORREO.js"></script>
 <script src="../js/bootstrap.js"></script>

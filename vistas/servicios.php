@@ -77,11 +77,12 @@
 	    <div class="contacto">
 	    	<a href="contacto.php"><p>AGENDA UNA CITA</p></a>
 	    </div>
+	    <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
+<?php include 'pie.php' ?>
 	</div>
 
 
-<span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
-<?php include 'pie.php' ?>
+
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/botonarriba.js"></script>
