@@ -48,7 +48,7 @@ border-bottom: 1px #575656 solid;
 .pull-left ul a{
   text-decoration: none;
   font:bold 16px Verdana;
-  padding: 15px; 
+  padding: 15px;
   color: #000;
 }
 .pull-left ul a:hover{
@@ -312,7 +312,7 @@ footer p{
     left: 0;
     position: absolute;
     width: 75px;
-}   
+}
 .form {
     border-radius: 7px;
     padding: 6px;
@@ -345,14 +345,14 @@ footer p{
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     color: #5793ef;
     transition: all 0.5s ease 0s;
-} 
+}
 .datos{
   /*border: 2px red solid;*/
   width: 45%;
   margin-right: 5%;
   margin-top: 4%;
 }
-.shape{    
+.shape{
     border-style: solid; border-width: 0 70px 40px 0; float:right; height: 0px; width: 0px;
   -ms-transform:rotate(360deg); /* IE 9 */
   -o-transform: rotate(360deg);  /* Opera 10.5 */
@@ -363,13 +363,13 @@ footer p{
   background:#fff; border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
 }
 .offer:hover {
-    -webkit-transform: scale(1.1); 
-    -moz-transform: scale(1.1); 
-    -ms-transform: scale(1.1); 
-    -o-transform: scale(1.1); 
-    transform:rotate scale(1.1); 
-    -webkit-transition: all 0.4s ease-in-out; 
--moz-transition: all 0.4s ease-in-out; 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform:rotate scale(1.1);
+    -webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
 -o-transition: all 0.4s ease-in-out;
 transition: all 0.4s ease-in-out;
     }
@@ -410,7 +410,7 @@ transition: all 0.4s ease-in-out;
   -o-transform: rotate(360deg);  /* Opera 10.5 */
   -webkit-transform:rotate(30deg); /* Safari and Chrome */
   transform:rotate(30deg);
-} 
+}
 .offer-content{
   padding:0 20px 10px;
 }
@@ -446,3 +446,6 @@ transition: all 0.4s ease-in-out;
 .mapa iframe{
   width: 100%;
 }
+
+
+/********************DISEÑO ENVIO DE CORREO ELECTRONICO****************************/

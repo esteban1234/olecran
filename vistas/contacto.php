@@ -23,13 +23,15 @@
 						<div class="form_main">
 				            <h4 class="heading"><strong>OLECRAM</strong> Contacto<span></span></h4>
 				            <div class="form">
-				                <form action="contact_send_mail.php" method="post" id="contactFrm" name="contactFrm">
-				                    <input type="text" required="" placeholder="Escribe tu nombre completo" value="" name="name" class="txt">
-				                    <input type="text" required="" placeholder="Escribe tu numero telefonico completo" value="" name="mob" class="txt">
-				                    <input type="text" required="" placeholder="Escribe tu correo" value="" name="email" class="txt">
-				                    
-				                	 <textarea placeholder="Escribe tu comentario" name="mess" type="text" class="txt_3"></textarea>
-				                     <input type="submit" value="Enviar" name="submit" class="txt2">
+				                <form  method="post" id="contactFrm" name="contactFrm" onSubmit="return false">
+				                    <input type="text" required="" placeholder="Escribe tu nombre completo" id="txtNOMBRE" value="" name="name" class="txt">
+				                    <input type="text" required="" placeholder="Escribe tu numero telefonico completo" id="txtTELEFONO" value="" name="mob" class="txt">
+				                    <input type="text" required="" placeholder="Escribe tu correo" id="txtCORREO" value="" name="email" class="txt">
+
+				                	 <textarea placeholder="Escribe tu comentario" id="txtCOMENTARIO" name="mess" type="text" class="txt_3"></textarea>
+													 <div class="g-recaptcha" data-sitekey="6LeEQicUAAAAAPoRZ2qqqbAnL0UH1gLuJlf3_bwW"></div>
+													 <div id="_AJAX_PRE_"></div>
+				                     <input type="submit" value="Enviar" name="submit" class="txt2" onclick="sendCORREO()">
 				                </form>
 				            </div>
 				        </div>
@@ -44,7 +46,7 @@
 							<div class="offer offer-default">
 								<div class="shape">
 									<div class="shape-text">
-										<span class=""><i class="fa fa-street-view" aria-hidden="true"></i></span>							
+										<span class=""><i class="fa fa-street-view" aria-hidden="true"></i></span>
 									</div>
 								</div>
 								<div class="offer-content">
@@ -52,9 +54,9 @@
 									Dirección:
 									</h3>
 									<p>
-										 Av. Paseo de los Leones #1684 por C. 20VA Av. y Paseo de los Insurgentes. Col. Las Cumbres 1 Sector, Monterrey, N.L. C.P. 64610 
-										<br> 
-				                       
+										 Av. Paseo de los Leones #1684 por C. 20VA Av. y Paseo de los Insurgentes. Col. Las Cumbres 1 Sector, Monterrey, N.L. C.P. 64610
+										<br>
+
 									</p>
 								</div>
 							</div>
@@ -63,7 +65,7 @@
 							<div class="offer offer-default">
 								<div class="shape">
 									<div class="shape-text">
-										<span class=""><i class="fa fa-phone" aria-hidden="true"></i></span>							
+										<span class=""><i class="fa fa-phone" aria-hidden="true"></i></span>
 									</div>
 								</div>
 								<div class="offer-content">
@@ -72,8 +74,8 @@
 									</h3>
 									<p>
 										PENDIENTE
-										<br> 
-				                       
+										<br>
+
 									</p>
 								</div>
 							</div>
@@ -85,7 +87,7 @@
 							<div class="offer offer-default">
 								<div class="shape">
 									<div class="shape-text">
-										<span class=""><i class="fa fa-envelope-o" aria-hidden="true"></i></span>							
+										<span class=""><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
 									</div>
 								</div>
 								<div class="offer-content">
@@ -94,8 +96,8 @@
 									</h3>
 									<p>
 										 info@olecram.org
-										<br> 
-				                       
+										<br>
+
 									</p>
 								</div>
 							</div>
@@ -104,7 +106,7 @@
 							<div class="offer offer-default">
 								<div class="shape">
 									<div class="shape-text">
-										<span class=""><i class="fa fa-clock-o" aria-hidden="true"></i></span>							
+										<span class=""><i class="fa fa-clock-o" aria-hidden="true"></i></span>
 									</div>
 								</div>
 								<div class="offer-content">
@@ -113,14 +115,14 @@
 									</h3>
 									<p>
 										Lunes a Viernes de 9am a 6pm
-										<br> 
-				                       
+										<br>
+
 									</p>
 								</div>
 							</div>
 						</div>
         			</div>
-				</div>	
+				</div>
 			</div>
 	    </div>
 
@@ -130,7 +132,7 @@
 
 	    <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
 <?php include 'pie.php' ?>
-	</div>    
+	</div>
 
 
 
