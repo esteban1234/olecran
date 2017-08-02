@@ -5,6 +5,10 @@
 <div class="contienetodo">
 
     <div class="header">
+        <div class="menu-op">
+          <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+          <i class="fa fa-times fa-2x cerrar" aria-hidden="true"></i>
+        </div>
         <nav class="pull-left">
             <ul>
                 <a class="select" href="index.php">INICIO</a>
@@ -32,36 +36,33 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-center" style="color: #fff; margin-top: 5%;">Algunos servicios</h1>
+            <h1 class="text-center tit-index" style="color: #fff; margin-top: 5%;">Algunos servicios</h1>
             <p class="lead text-center" style="color: #fff;">Te ofrecemos servicios con altos estándares de calidad.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-2">
-            <img src="img/asesoria-en-administracion.jpg"
-            class="img-responsive img-thumbnail">
+            <img src="img/asesoria-en-administracion.jpg" class="img-responsive img-thumbnail">
           </div>
           <div class="col-md-4">
-            <h3 class="text-left" style="color: #fff; margin-top: 17%;">Consultoria en administración</h3>
+            <h3 class="text-left subtit-index" style="color: #fff; margin-top: 17%;">Consultoria en administración</h3>
             <!-- <p class="text-left" style="color: #fff;">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p> -->
           </div>
           <div class="col-md-2">
-            <img src="img/legal2.jpg"
-            class="img-responsive img-thumbnail">
+            <img src="img/legal2.jpg" class="img-responsive img-thumbnail">
           </div>
           <div class="col-md-4">
-            <h3 class="text-left" style="color: #fff; margin-top: 17%;">Apoyo para efectuar trámites legales</h3>
+            <h3 class="text-left subtit-index" style="color: #fff; margin-top: 17%;">Apoyo para efectuar trámites legales</h3>
             <!-- <p class="text-left" style="color: #fff;">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p> -->
           </div>
         </div>
         <br>
         <div class="row">
           <div class="col-md-2">
-            <img src="img/asesoria-financiera.jpg"
-            class="img-responsive img-thumbnail">
+            <img src="img/asesoria-financiera.jpg" class="img-responsive img-thumbnail">
           </div>
           <div class="col-md-4">
-            <h3 class="text-left" style="color: #fff; margin-top: 17%;">Asesoria financiera</h3>
+            <h3 class="text-left subtit-index" style="color: #fff; margin-top: 17%;">Asesoria financiera</h3>
             <!-- <p class="text-left" style="color: #fff;">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p> -->
           </div>
           <div class="col-md-2">
@@ -69,7 +70,7 @@
             class="img-responsive img-thumbnail">
           </div>
           <div class="col-md-4 text-center">
-            <h3 class="text-left" style="color: #fff; margin-top: 17%;">Asesoria empresarial</h3>
+            <h3 class="text-left subtit-index" style="color: #fff; margin-top: 17%;">Asesoria empresarial</h3>
             <!-- <p class="text-left" style="color: #fff;">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p> -->
           </div>
         </div>
@@ -84,7 +85,7 @@
             <a href="vistas/contacto.php" ><button type="button" class="btn btn-danger btn-lg"> <span><i class="fa fa-phone" aria-hidden="true"></i></span>&nbsp; CONTACTANOS</button></a>
         </p>
     </div>
-    
+
     <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
     <?php include 'vistas/pie.php' ?>
 
@@ -96,5 +97,6 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/botonarriba.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>

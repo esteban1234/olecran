@@ -3,6 +3,10 @@
 <body>
 	<div class="contienetodo">
 		<div class="header">
+			<div class="menu-op">
+				<i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+				<i class="fa fa-times fa-2x cerrar" aria-hidden="true"></i>
+			</div>
 	        <nav class="pull-left">
 	            <ul>
 	                <a href="../index.php">INICIO</a>
@@ -28,8 +32,7 @@
 				                    <input type="text" required="" placeholder="Escribe tu numero telefonico completo" id="txtTELEFONO" value="" name="mob" class="txt">
 				                    <input type="text" required="" placeholder="Escribe tu correo" id="txtCORREO" value="" name="email" class="txt">
 
-				                	 <textarea placeholder="Escribe tu comentario" id="txtCOMENTARIO" name="mess" type="text" class="txt_3"></textarea>
-													 <div class="g-recaptcha" data-sitekey="6LeEQicUAAAAAPoRZ2qqqbAnL0UH1gLuJlf3_bwW"></div>
+				                	 <textarea required="" placeholder="Escribe tu comentario" id="txtCOMENTARIO" name="mess" type="text" class="txt_3"></textarea><br>
 													 <div id="_AJAX_PRE_"></div>
 				                     <input type="submit" value="Enviar" name="submit" class="txt2" onclick="sendCORREO()">
 				                </form>
@@ -140,5 +143,6 @@
 <script src="../js/sendCORREO.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/botonarriba.js"></script>
+<script src="../js/menu.js"></script>
 </body>
 </html>

@@ -93,6 +93,10 @@ border-bottom: 1px #575656 solid;
   text-align: center;
 }
 
+.menu-op{
+  display: none;
+}
+
 .seccion1{
   /*border: 2px red solid;*/
   background-color:  #566573 ;

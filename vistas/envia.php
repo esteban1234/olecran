@@ -22,41 +22,15 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("info@olecram.org");
-
-
+$mail->addAddress("info@oleram.org");
 
 
 $mail->isHTML(true);
 
-$img = "http://paginasprueba.pe.hu/olecran/img/olecran.jpg";
-
-$mail->Subject = "Cotización OLECRAM";
-$mail->Body = '
-
-                <html>
-                  <body>
-                  <header>
-                    <div style="background-color:#353e4a; color:#fff;">
-                      <figure style="margin:auto; width:40%; padding-bottom:20px;">
-                        <img style="width:100%" src='.$img.' alt="">
-                      </figure>
-                    </div>
-                  </header>
-                  <section style="border:.5px solid rgb(177, 185, 174);  margin:0px">
-                    <div>
-                      <p style="background-color:#000; padding:15px; color:#fff"><b>Telefono: <span style="background-color:#fff; padding:15px; color:#000">'. $telefono .'</span><p>
-                    </div>
-
-                    <div>
-                      <p style="background-color:#000; padding:15px; color:#fff; text-align:center; font-size:20px;">Comentario</p>
-                      <p style="text-align:justify">'.$comentario.'</p>
-                    </div>
-                  </section>
-                  </body>
-                </html>';
-
-
+$mail->Subject = "Cotización PECYDEM";
+$mail->Body = "
+              <b>Telefono: </b>.$telefono.<br/>
+              <b>Comentario: </b>.$comentario.<br/>";
 // $mail->AltBody = "This is the plain text version of the email content";
 
 if(!$mail->send())
@@ -80,6 +54,5 @@ else
 }
 
 echo $html;
-
 
 ?>

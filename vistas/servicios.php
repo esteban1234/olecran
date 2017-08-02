@@ -4,6 +4,10 @@
 
 	<div class="contienetodo">
 		<div class="header">
+			<div class="menu-op">
+				<i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+				<i class="fa fa-times fa-2x cerrar" aria-hidden="true"></i>
+			</div>
 	        <nav class="pull-left">
 	            <ul>
 	                <a href="../index.php">INICIO</a>
@@ -20,7 +24,7 @@
 	    <div class="servicios">
 
 	    <p>EL SERVICIO INTEGRAL OLECRAM S.C.P.</p>
-	    	
+
 	    </div>
 
 	    <div class="contenser">
@@ -86,5 +90,6 @@
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/botonarriba.js"></script>
+<script src="../js/menu.js"></script>
 </body>
 </html>
