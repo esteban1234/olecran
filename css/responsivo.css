@@ -303,6 +303,7 @@
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+
   }
 
   .texto{
@@ -534,9 +535,9 @@
   .subtit-index{
     margin-top: 4px !important;
     margin-bottom: 25px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
-    text-align: center;
+    text-align: center !important;
   }
 
   .texto{
@@ -544,6 +545,7 @@
     margin: 0px;
     font-size: 20px;
     text-align: justify;
+
   }
 
   .texto br{
@@ -557,13 +559,14 @@
   }
 
   .img-width{
-    border: 2px solid red;
-    width: 100%;
+    width: 100% !important;
+    margin: 0px;
   }
+
 
   .subtit-index{
     float: none !important;
-    margin-top: 0px !important;
+    text-align: left;
   }
 
   /***********END DISEÑO INDEX****************/
@@ -612,6 +615,10 @@
   .border{
     border-bottom: .5px solid rgba(0,0,0,0.5);
     margin-bottom: 20px;
+  }
+
+  .img-nosotros{
+    width: 100%;
   }
   /***********END DISEÑO NOSOTROS***********/
 
@@ -691,9 +698,7 @@
 
 .datos{
   width: 100%;
-  /*margin: auto;*/
   margin: 0px;
-  border: 2px solid red;
 }
 
 .container-contacto{
@@ -721,10 +726,115 @@
   /***********END DISEÑO FOOTER***********/
 }
 
-@media screen and (max-width: 1023px) and (min-width: 800px) {}
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+
+  nav{
+    margin: 15px 3px !important;
+  }
+
+  .img-nosotros{
+    width: 100%;
+  }
+
+  .img-width{
+    width: 100%;
+    margin: auto;
+  }
+
+  .subtit-index{
+    float: none !important;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .boton2, .texto{
+    float: none !important;
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+  }
+
+  .servuno{
+    width: 47%;
+    height: 350px;
+  }
+
+  .servunoo span i{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .tit{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .subtit{
+    text-align: justify;
+  }
+
+  .formu{
+    width: 40%;
+    margin: auto;
+  }
+
+  .datos{
+    width: 60%;
+    margin: 0px;
+  }
+
+  .container-contacto{
+    width: 100%;
+  }
+
+}
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
-}
-@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+  .boton2, .texto{
+    float: none !important;
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+  }
 
-@media screen and (min-width: 1367px) { }
+  .img-nosotros{
+    width: 100%;
+  }
+
+  .servuno{
+    height: 380px;
+  }
+
+  .formu{
+    width: 40%;
+    margin: auto;
+  }
+
+  .datos{
+    width: 60%;
+    margin: 0px;
+  }
+
+  .container-contacto{
+    width: 100%;
+  }
+
+ }
+
+@media screen and (min-width: 1281px) {
+  .formu{
+    width: 40%;
+    margin: auto;
+  }
+
+  .datos{
+    width: 60%;
+    margin: 0px;
+  }
+
+  .container-contacto{
+    width: 100%;
+  }
+ }

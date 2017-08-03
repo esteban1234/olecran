@@ -45,7 +45,7 @@
 			<div class="datos pull-right">
 			    <div class="container container-contacto">
 				    <div class="row">
-				    	<div class="col-xs-12 col-sm-6 col-md-3">
+				    	<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
 							<div class="offer offer-default">
 								<div class="shape">
 									<div class="shape-text">
@@ -64,7 +64,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
 							<div class="offer offer-default">
 								<div class="shape">
 									<div class="shape-text">
@@ -86,7 +86,7 @@
 				    </div>
 
                     <div class="row">
-				    	<div class="col-xs-12 col-sm-6 col-md-3">
+				    	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 							<div class="offer offer-default">
 								<div class="shape">
 									<div class="shape-text">
@@ -105,7 +105,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 							<div class="offer offer-default">
 								<div class="shape">
 									<div class="shape-text">

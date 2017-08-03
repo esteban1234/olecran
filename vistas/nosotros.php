@@ -21,11 +21,10 @@
     </div>
 
     <div class="section seccion2">
-      <div class="container" style="margin-top: 5%; margin-bottom: 5%;">
+      <div class="container img-nosotros" style="margin-top: 5%; margin-bottom: 5%;">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6">
-            <img src="../img/body2.jpg"
-            class="img-responsive img-rounded">
+            <img src="../img/body2.jpg" class="img-responsive img-rounded">
           </div>
           <div class="col-xs-12 col-sm-12 col-md-6" style="margin-top: 5%;">
             <h1>OLECRAM</h1>
@@ -48,7 +47,7 @@
     </div>
 
     <div class="section seccion2">
-      <div class="container" style="margin-top: 5%; margin-bottom: 5%;">
+      <div class="container img-nosotros" style="margin-top: 5%; margin-bottom: 5%;">
         <div class="row">
           <div class="col-md-6">
             <h1 >UNA EMPRESA JOVEN, SEGURA Y CONFIABLE</h1>
@@ -68,7 +67,7 @@
     </div>
 
     <div class="section seccion3">
-      <div class="container" style="margin-top: 5%; margin-bottom: 5%;">
+      <div class="container img-nosotros" style="margin-top: 5%; margin-bottom: 5%;">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-4 border">
             <div class="iconos">

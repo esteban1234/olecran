@@ -33,16 +33,16 @@
     </div>
 
        <div class="section seccion1">
-      <div class="container">
+      <div class="container img-width">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12">
             <h1 class="text-center tit-index" style="color: #fff; margin-top: 5%;">Algunos servicios</h1>
             <p class="lead text-center" style="color: #fff;">Te ofrecemos servicios con altos estándares de calidad.</p>
           </div>
         </div>
-        <div class="row img-width">
+        <div class="row">
           <div class="col-xs-12 col-sm-2 col-md-2">
-            <img src="img/asesoria-en-administracion.jpg" class="img-responsive img-thumbnail img-width">
+            <img src="img/asesoria-en-administracion.jpg" class="img-responsive img-thumbnail">
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4">
             <h3 class="text-left subtit-index" style="color: #fff; margin-top: 17%;">Consultoria en administración</h3>
