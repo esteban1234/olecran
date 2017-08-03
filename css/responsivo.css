@@ -556,6 +556,16 @@
     text-align: center;
   }
 
+  .img-width{
+    border: 2px solid red;
+    width: 100%;
+  }
+
+  .subtit-index{
+    float: none !important;
+    margin-top: 0px !important;
+  }
+
   /***********END DISEÑO INDEX****************/
 
   /***********DISEÑO NOSOTROS****************/
